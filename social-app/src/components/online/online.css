@@ -1,0 +1,34 @@
+.rightbarFriendLIst {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.rightbarContainer {
+  margin-right: 10px;
+  position: relative;
+}
+.contactImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.onlineCircle {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  bottom: 4px;
+  right: 0px;
+  border: 1px solid white;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.contactName {
+  font-weight: 600;
+}

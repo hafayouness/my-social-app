@@ -1,0 +1,39 @@
+.headerAmie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.titreAmi {
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.paragraphAmi {
+  margin-right: 9px;
+  margin-right: 20px;
+  color: #cc5de8;
+  letter-spacing: 0.3px;
+}
+
+.lesAmie {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 20px;
+  grid-template-columns: auto auto auto;
+  margin-left: 20px;
+}
+.photoAmieProfile {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.username {
+  font-weight: 400;
+}
+.username:hover {
+  text-decoration-line: underline;
+  cursor: pointer;
+}

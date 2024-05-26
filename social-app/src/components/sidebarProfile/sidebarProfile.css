@@ -1,0 +1,141 @@
+.sidebarProfile {
+  flex: 3;
+}
+
+.introbox {
+  width: 25rem;
+  height: 20rem;
+  border-color: transparent;
+  border-radius: 15px;
+  background-color: #fff;
+  /* color: #f3f4f6; */
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 5px 5px 41px -3px rgba(0, 0, 0, 0.1); */
+  padding: 16px;
+}
+.introtitre {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+.introlist {
+  margin-top: 25px;
+  margin-left: 5px;
+  list-style: none;
+  border: 1px solid #333;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  background-color: #e6e9ec;
+  border: none;
+}
+.introlist:nth-child(4) {
+  margin-bottom: 0px;
+}
+.introlist:hover {
+  background-color: #d2d3d4;
+  cursor: pointer;
+}
+/* ////////// box photos */
+
+.photosbox {
+  margin-top: 10px;
+}
+.photosProfile {
+  width: 25rem;
+  height: 30rem;
+  border-color: transparent;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.1);
+
+  /* box-shadow: 5px 5px 41px -3px rgba(0, 0, 0, 0.1); */
+}
+.headerPhotos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.titreHeader {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+/* .titreHeader:hover {
+  border-bottom: 2px solid #333;
+} */
+.titreHeader:hover {
+  display: block;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.paragrafHeader {
+  margin-top: 20px;
+  margin-right: 20px;
+  color: #cc5de8;
+  letter-spacing: 0.3px;
+}
+.paragrafHeader:hover {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 7px;
+  background-color: #d7d9db;
+}
+/* //////// box photo */
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 6px;
+  gap: 2px 2px;
+}
+.photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  display: block;
+}
+.photo1 {
+  border-top-left-radius: 10px;
+}
+.photo3 {
+  border-top-right-radius: 10px;
+}
+.photo4 {
+  border-bottom-left-radius: 10px;
+}
+.photo5 {
+  border-bottom-right-radius: 10px;
+}
+/* //////// Amiebox */
+.Amiebox {
+  margin-top: 50px;
+  width: 25rem;
+  height: 33rem;
+  border-color: transparent;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.titreHeaderAmi {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.titreHeaderAmi:hover {
+  display: block;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+  margin-top: 560px;
+  color: #7d7878;
+}

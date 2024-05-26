@@ -1,0 +1,89 @@
+.right {
+  flex: 3.5;
+}
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+.headerAnnif {
+  margin-bottom: 13px;
+  color: rgb(136, 135, 135);
+}
+.birthday {
+  display: flex;
+  align-items: center;
+}
+.birthdayimg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.birthdayText {
+  font-weight: 300;
+  font-size: 15px;
+}
+.rightBarAd {
+  width: 45%;
+  border-radius: 15px;
+  margin: 30px 0;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.sidebarHr {
+  margin: 20px 0;
+}
+.headerspons {
+  color: rgb(136, 135, 135);
+}
+.packsponsor {
+  display: flex;
+  align-items: center;
+}
+.sponsorText {
+  font-weight: 600;
+  font-size: 17px;
+}
+.packContact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.iconContact {
+  color: rgb(136, 135, 135);
+}
+.videocam {
+  margin-right: 15px;
+}
+/* .circle:hover {
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  background-color: rgb(175, 175, 175);
+  border-radius: 50%;
+} */
+
+.search {
+  margin-right: 15px;
+}
+
+.headercover {
+  color: rgb(136, 135, 135);
+  margin-bottom: 14px;
+}
+.groups {
+  margin-bottom: 40px;
+}
+.groupe {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 20px;
+}
+.nameGroups {
+  font-weight: 600;
+  font-style: 17px;
+}
+.icongroups {
+  color: rgb(136, 135, 135);
+}
